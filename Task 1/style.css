@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #dac7f7;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #777;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    padding: 50px 0;
+  }
+  
+  #hero {
+    background-image: url('https://newsimg.giznext.com/mobile/production/news/wp-content/uploads/2022/07/21155505/Smartwatch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    background-color: #7785c4;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8593d3;
+  }
+
+  #features {
+    background-color: #dccafa;
+    padding: 50px 0;
+  }
+  
+  #features h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  #features ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #features li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .feature-icon {
+    background-color: #e3e4e4;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-icon img {
+    max-width: 50px;
+  }
+  
+  .feature-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #design {
+   background-color: #3b383a;
+   color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  #design h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .design-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 50px;
+  }
+  
+  #durability {
+    background-color: #F4F4F4;
+    padding: 50px 0;
+  }
+  
+  #durability h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  #durability .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #durability img {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  #durability p {
+    font-size: 24px;
+    max-width: 600px;
+  }
+  
+  #buy {
+    background-color: #272424;
+    padding: 20px 0;
+  }
+  
+  #buy h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  #buy .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    max-width: 300px;
+  }
+  
+  #buy h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  #buy p {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  
+  #buy .button {
+    background-color: #8593d3;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  #buy .button:hover {
+    background-color: #8593d3;
+    color: #ffffff;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    #hero {
+      height: 300px;
+    }
+  
+    #hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  
+    #hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  
+    .feature-text h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    #buy .col {
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    #hero {
+      height: 250px;
+    }
+  
+    #hero h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    #hero p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .feature-text h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    #buy .col {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #hero {
+      height: 200px;
+    }
+  
+    #hero h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    #hero p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .feature-text h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    #buy .col {
+      margin-bottom: 20px;
+    }
+  }
