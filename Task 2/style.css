@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+header {
+    background-color: #d3e3eb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+	padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 70px;
+	background-color: rgb(230, 230, 230);
+}
+
+#contact {
+    background-color: rgba(17, 17, 17, 0.637);
+
+}
+
+#contact h2 {
+    color: #fff;
+}
+section {
+    padding: 60px 20px;
+}
+
+section#home {
+    background-color: #f3f3f3; 
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #444;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button[type="submit"] {
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #4d4c4c;
+	color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
